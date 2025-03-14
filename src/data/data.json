@@ -1,7 +1,9 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "We are \n Raven Soft Bangladesh",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+    "smallImage": "img/ravenSoft-logo-01.jpg",
+    "largeImage": "img/ravenSoft-logo-01.jpg"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -67,34 +69,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-mobile",
+      "name": "Mobile App Development",
+      "text": "We build fast, scalable, and high-performing mobile applications for iOS and Android using modern frameworks like Flutter and React Native."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shopping-cart",
+      "name": "POS Management",
+      "text": "Our POS solutions streamline sales and inventory tracking, making transactions seamless for businesses of all sizes."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-code",
+      "name": "Web Development (PHP Laravel, React, Node.js)",
+      "text": "From simple websites to complex web apps, we use modern tech stacks like PHP Laravel, React, and Node.js to deliver high-quality solutions."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-server",
+      "name": "ERP Solutions",
+      "text": "Manage your business efficiently with our cloud-based ERP solutions, covering accounting, HR, inventory, and more."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-globe",
+      "name": "E-Commerce Development",
+      "text": "We build feature-rich e-commerce platforms with seamless payment gateways, high security, and smooth user experiences."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cloud-upload",
+      "name": "Deployment & Hosting",
+      "text": "We provide reliable cloud hosting and deployment services, ensuring your applications run smoothly with 99.9% uptime."
     }
   ],
   "Testimonials": [
@@ -152,9 +154,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Sel Trident Tower (Level-10, Suite#1004), 57- VIP Rd, Dhaka-1000 ",
+    "phone": "+880 1537 457083",
+    "email": "ravenSoft@info.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "./image";
 
 export const Navigation = (props) => {
   return (
@@ -11,22 +12,26 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+
+          <div className="col-sm-6 col-md-4 col-lg-4">
+            <img
+              src="/img/ravenSoft-logo-01.jpg"
+              alt="RavenSoft Logo"
+              className="navbar-logo"
+            />
+          </div>
         </div>
 
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
-          <ul className="nav navbar-nav navbar-right">
+          <ul className="nav navbar-nav navbar-right custom-nav">
             <li>
               <a href="#features" className="page-scroll">
                 Features
@@ -68,3 +73,4 @@ export const Navigation = (props) => {
     </nav>
   );
 };
+  

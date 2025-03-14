@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,7 +11,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -81,14 +81,14 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -163,7 +163,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/hero-section-img.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -219,7 +219,7 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -510,7 +510,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   float: left;
 }
 #contact .form-control {
@@ -603,4 +603,44 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+/* Custom Navbar Styles */
+.navbar-default {
+  background-color: #121212;
+  /* Dark theme */
+  border: none;
+  padding: 15px 0;
+}
+
+/* Logo Styling */
+.navbar-logo {
+  max-width: 140px;
+  height: auto;
+}
+
+/* Navigation Links */
+.custom-nav li a {
+  font-family: "Roboto Mono", sans-serif;
+  /* Modern and sleek */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #01D0FB !important;
+  /* White text */
+  padding: 12px 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.custom-nav li a:hover {
+  color: #0644FF !important;
+  /* Change color on hover */
+  text-decoration: none;
+}
+
+/* Active Link Styling */
+.custom-nav li a:focus,
+.custom-nav li a:active {
+  color: #0644FF !important;
+  border-bottom: 2px solid #0644FF;
 }
